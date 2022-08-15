@@ -266,7 +266,7 @@ type GetDailyDataResp struct {
 type GetAppListResp struct {
 	AppInfos []struct {
 		CreatedAt  string `json:"createdAt"`
-		UseGameSdk string `json:"useGameSdk"`
+		UseGameSdk bool	  `json:"useGameSdk"`
 		Name       string `json:"name"`
 		Appkey     string `json:"appkey"`
 		Category   string `json:"category"`
